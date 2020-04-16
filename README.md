@@ -24,6 +24,7 @@ module "az_vms" {
   lb_address_pool_id        = "loadbalancer-address-pool-id"
   worker_vm_size            = "my-worker-vm-size"
   worker_disk_size          = "my-worker-disk-size"
+  worker_count              = "my-worker-quantity"
   manager_vm_size           = "my-manager-vm-size"
 }
 ```
